@@ -95,4 +95,26 @@ h1 {
   .card-container {
     grid-template-columns: 1fr;
   }
+
+}
+
+
+/* Mobile Improvements */
+@media (max-width: 600px) {
+
+  h1 {
+    font-size: 24px;
+  }
+
+  .tabs {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .tabs button {
+    width: 100%;
+    font-size: 18px;
+    padding: 14px;
+  }
+
 }
