@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // 🕌 Friday Khutbah Recordings
   // ==============================
   const khutbahList = [
-    { title: "1st Friday Khutbah", file: "khutbah1.ogg" }
+    { title: "1st Friday Khutbah", file: "friday1.ogg" }
   ];
 
   // Get Containers
@@ -111,4 +111,5 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 });
+
 
