@@ -6,7 +6,8 @@ document.addEventListener("DOMContentLoaded", function () {
   const taraweehList = [
     { title: "1st Taraweeh Tafseer", file: "taraweeh1.ogg" },
     { title: "2nd Taraweeh Tafseer", file: "taraweeh2.ogg" },
-    { title: "3rd Taraweeh Tafseer", file: "taraweeh3.ogg" }
+    { title: "3rd Taraweeh Tafseer", file: "taraweeh3.ogg" },
+    { title: "3rd Taraweeh Tafseer", file: "taraweeh4.ogg" }
   ];
 
   // ==============================
@@ -107,5 +108,6 @@ document.addEventListener("DOMContentLoaded", function () {
   // Show Taraweeh by default on load
   // ==============================
   showSection("taraweeh");
+
 
 });
