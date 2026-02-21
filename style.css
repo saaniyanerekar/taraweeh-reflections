@@ -95,6 +95,12 @@ h1 {
   cursor: pointer;
 }
 
+audio {
+  width: 100%;
+  max-width: 500px;
+  margin-top: 10px;
+}
+
 @media (max-width: 900px) {
   .card-container {
     grid-template-columns: repeat(2, 1fr);
@@ -128,4 +134,5 @@ h1 {
   }
 
 }
+
 
