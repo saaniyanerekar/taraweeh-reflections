@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Taraweeh & Khutbah Audio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>🌙 Taraweeh Reflections</h1>
+
+  <!-- Tabs -->
+  <div class="tabs">
+    <button onclick="showSection('taraweeh')">🌙 Taraweeh</button>
+    <button onclick="showSection('khutbah')">🕌 Friday Khutbahs</button>
+  </div>
+
+  <!-- Taraweeh Section -->
+<div id="taraweehSection" class="hidden">
+    <div class="card-container" id="taraweehContainer"></div>
+  </div>
+
+  <!-- Khutbah Section -->
+  <div id="khutbahSection" class="hidden">
+    <div class="card-container" id="khutbahContainer"></div>
+  </div>
+
+  <!-- Shared Audio Player -->
+  <div id="audioSection" class="hidden">
+    <h2 id="audioTitle"></h2>
+
+    <audio id="audioPlayer" controls>
+      <source id="audioSource" src="" type="audio/ogg">
+      Your browser does not support the audio element.
+    </audio>
+
+    <div class="controls">
+      <button onclick="playAudio()">▶ Play</button>
+      <button onclick="pauseAudio()">⏸ Pause</button>
+      <button onclick="backward()">⏪ -10s</button>
+      <button onclick="forward()">⏩ +10s</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
